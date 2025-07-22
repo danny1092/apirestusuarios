@@ -18,5 +18,12 @@
   </form>
 
   <script src="script.js"></script>
+  <script src="config.js"></script>
+  <script>
+    fetch(apiUrl)
+      .then(res => res.json())
+      .then(data => console.log(data));
+  </script>
 </body>
+
 </html>

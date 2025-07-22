@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:7070/usuarios";
+//const apiUrl = "http://localhost:7070/usuarios";
 
 async function cargarUsuarios() {
   const res = await fetch(apiUrl);
